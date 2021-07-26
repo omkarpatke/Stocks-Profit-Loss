@@ -3,6 +3,9 @@ body{
     font-family: 'Alegreya', serif;
     background-color: #f0f2ff;
 }
+.hidden{
+    display: none;
+}
 .container{
     display: flex;
     flex-direction: column;
@@ -52,7 +55,7 @@ body{
 
 }
 
-.unitprice{
+.stockunit{
     height: 5vh;
     width: 24vw;
     font-size: 1.2rem;
@@ -96,16 +99,22 @@ body{
 background-color: #07917e;
 margin-bottom: 1.2rem;
 }
-.img{
-    margin-top: 1.1rem;
+.profitimg{
+    
     border: 1px white;
-    height: 20vh;
-    width: auto;
-    margin-bottom: 1.5rem;
+    height: 35vh;
+    width: 30vw;
+    margin: 2rem;
+    
+}
+.output{
+    font-size: 1.3rem;
+    margin-left: 2rem;
 }
 .link{
     font-size: 1.2rem;
     align-self: center;
     margin-bottom: 0.6rem;
     color: gray;
+    margin-top: 1rem;
 }
