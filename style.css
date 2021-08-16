@@ -43,6 +43,7 @@ body{
 .form{
     display: flex;
     flex-direction: column;
+    justify-content:center ;
 }
 .purchaseprice{
     height: 5vh;
