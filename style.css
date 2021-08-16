@@ -18,6 +18,10 @@ body{
     align-items: center;
     background-color: #36e4cd;
 }
+.main{
+    padding: 1.5rem;
+}
+
 .header{
     display: flex;
     margin-top: 1.3rem;
@@ -27,7 +31,7 @@ body{
     color:  #36e4cd;
 }
 .one{
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
 .header-container{
     background-color:white;
@@ -47,9 +51,10 @@ body{
 }
 .purchaseprice{
     height: 5vh;
-    width: 24vw;
+    width: 90%;
     font-size: 1.2rem;
     margin-bottom: 1.5rem;
+    
     background-color: #f0f7f7;
     border-radius:5px;
     border: none
@@ -58,18 +63,20 @@ body{
 
 .stockunit{
     height: 5vh;
-    width: 24vw;
+    width: 90%;
     font-size: 1.2rem;
     margin-bottom: 1.5rem;
+    
     background-color: #f0f7f7;
     border-radius:5px;
     border: none;
 }
 .currentprice{
     height: 5vh;
-    width: 24vw;
+    width: 90%;
     font-size: 1.2rem;
     margin-bottom: 1.5rem;
+    
     background-color: #f0f7f7;
     border-radius:5px;
     border: none;
@@ -80,10 +87,10 @@ body{
 }
 .btn{
     height: 6vh;
-    width: 12vw;
+    width: 35%;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    margin-left: 6rem;
+    margin-left: 10rem;
     font-size: 1.2rem;
     background-color: white;
     color: #36e4cd;
