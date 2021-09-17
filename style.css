@@ -170,5 +170,6 @@ margin-bottom: 1.2rem;
     input{
         height: 6vh;
         width: 93%;
+        padding-left: 15px;
     }
 }
