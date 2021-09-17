@@ -116,6 +116,13 @@ margin-bottom: 1.2rem;
     margin: 2rem;
     
 }
+.lossimg{
+    border: 1px white;
+    height: 35vh;
+    width: 30vw;
+    margin: 2rem;
+    
+}
 .output{
     font-size: 1.3rem;
     margin-left: 2rem;
@@ -153,5 +160,11 @@ margin-bottom: 1.2rem;
     }
     .btn{
         margin-left: 6rem;
+    }
+    .profitimg{
+        width: 82vw;
+    }
+    .lossimg{
+        width: 82vw;
     }
 }
