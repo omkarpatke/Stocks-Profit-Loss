@@ -90,11 +90,12 @@ body{
     width: 35%;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    margin-left: 10rem;
+    margin-left: 9rem;
     font-size: 1.2rem;
     background-color: white;
     color: #36e4cd;
     border-radius: 3px;
+    
 
 }
 .btn:hover{
@@ -125,4 +126,32 @@ margin-bottom: 1.2rem;
     margin-bottom: 0.6rem;
     color: gray;
     margin-top: 1rem;
+}
+
+@media (max-width:1000px) {
+    body{
+        padding: 0;
+        margin: 0;
+    }
+    .container{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    .header{
+        margin-left: 0.5rem;
+    }
+    .para{
+        margin-left: 0;
+    }
+    .header-container{
+        text-align: center;
+        
+    }
+    button{
+        margin-left: 6rem;
+    }
+    .btn{
+        margin-left: 6rem;
+    }
 }
