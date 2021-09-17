@@ -87,7 +87,7 @@ input{
 }
 .btn{
     height: 6vh;
-    width: 35%;
+    width: 40%;
     margin-top: 2rem;
     margin-bottom: 2rem;
     margin-left: 9rem;
@@ -95,12 +95,13 @@ input{
     background-color: white;
     color: #36e4cd;
     border-radius: 3px;
+    border: none;
     
 
 }
 .btn:hover{
     color: white;
-    background-color:#1da896;
+    background-color:#34ddc7;
 }
 .msg{
     height: 5vh;
