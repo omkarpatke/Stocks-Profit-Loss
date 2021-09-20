@@ -90,7 +90,7 @@ input{
     width: 40%;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    margin-left: 9rem;
+    margin-left:9rem;
     font-size: 1.2rem;
     background-color: white;
     color: #36e4cd;
@@ -101,7 +101,8 @@ input{
 }
 .btn:hover{
     color: white;
-    background-color:#34ddc7;
+    background-color:#16d3ba;
+    border: 2px rgb(36, 161, 145) solid;
 }
 .msg{
     height: 5vh;
