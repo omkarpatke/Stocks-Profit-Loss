@@ -2,7 +2,7 @@ var CostPrice = document.querySelector(".purchaseprice");
 var SellPrice = document.querySelector(".currentprice");
 var StockUnit = document.querySelector(".stockunit");
 var OutputDiv = document.querySelector('.output');
-var Cheakbtn = document.querySelector(".btn");
+var Checkbtn = document.querySelector(".btn");
 var profitImg = document.querySelector(".profitimg");
 var lossImg = document.querySelector(".lossimg");
 
@@ -33,4 +33,4 @@ function ProfitLoss(e){
         }
     }
 }
-Cheakbtn.addEventListener("click", ProfitLoss);
+Checkbtn.addEventListener("click", ProfitLoss);
